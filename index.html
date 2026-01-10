@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | Alex Lybbert | Home Page">
+    <meta name="author" content="Alex Lybbert">
+    <title>WDD 131 - Dynamic Web Fundamentals - Alex Lybbert</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/alex-lybbert/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1>Alex Lybbert</h1>
+
+        <section class="card about-me">
+            <header class="card-header">About Me</header>
+            <div class="card-body">
+                <div class="about-grid">
+                    <p>
+                        Hi, I'm Alex. I grew up in Utah but now travel the country with my family in a fifth wheel trailer. 
+                        I've been doing software development for 12 years—started learning in a friend's basement and landed my first job six months later. 
+                        I have three boys, ages 10, 7, and 6, and I've been married for 14 years. I love plants, gardening, and tinkering with cars and mechanical stuff.
+                    </p>
+                    <img src="images/profile.jpg" alt="Alex with one of his sons">
+                </div>
+
+                <h3>Buenos Aires, Argentina</h3>
+                <div class="location-grid">
+                    <figure>
+                        <img src="images/Flag_of_Argentina.svg" alt="Flag of Argentina">
+                        <figcaption>Official flag of Argentina</figcaption>
+                    </figure>
+                    <p>
+                        I served my mission in the Buenos Aires North, Argentina mission. It was challenging but incredibly rewarding. 
+                        I spent six months in a small town called Ushuaia—the southernmost city in the world! The experience helped me grow in ways I couldn't imagine.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card resources">
+            <header class="card-header">Web Dev Resources</header>
+            <div class="card-body">
+                <ul>
+                    <li><a href="https://dev.to/" target="_blank" rel="noopener">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank" rel="noopener">Udemy</a></li>
+                    <li><a href="https://picsum.photos/" target="_blank" rel="noopener">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Alex Lybbert | Utah (sort of)</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
