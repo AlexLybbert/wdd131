@@ -1,11 +1,9 @@
 @media (min-width: 768px) {
 
-    /* Hide hamburger */
     #menuButton {
         display: none;
     }
 
-    /* Show nav as flex row */
     #navMenu {
         display: flex;
         flex-direction: row;
@@ -18,7 +16,6 @@
         padding: 0;
     }
 
-    /* Temple grid: 3 columns */
     .temple-grid {
         grid-template-columns: repeat(3, 1fr);
     }
