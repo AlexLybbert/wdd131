@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+
+    /* Hide hamburger */
+    #menuButton {
+        display: none;
+    }
+
+    /* Show nav as flex row */
+    #navMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 2rem;
+        font-size: 1.2rem;
+    }
+
+    #navMenu a {
+        padding: 0;
+    }
+
+    /* Temple grid: 3 columns */
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 5rem;
+        max-width: 2000px;
+        margin: 0 auto;
+    }
+}

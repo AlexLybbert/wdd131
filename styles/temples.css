@@ -1,0 +1,90 @@
+/* Temple Album Additive Styles - mobile first */
+
+/* Header layout and hamburger */
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#menuButton {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: inherit; /* use base.css color */
+}
+
+/* Hide nav by default on mobile */
+#navMenu {
+    display: none;
+    flex-direction: column;
+}
+
+#navMenu.open {
+    display: flex;
+}
+
+#navMenu a {
+    padding: 0.75rem 0;
+    text-align: center;
+    text-decoration: none;
+    color: inherit; /* inherit text color from base.css */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for links */
+#navMenu a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-text);
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Temple grid */
+.temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.temple-grid figure {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--bg-light);
+}
+
+.temple-grid img {
+    width: 100%;
+    display: block;
+}
+
+.temple-grid figcaption {
+    text-align: center;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 5rem;
+    max-width: 2000px;
+    margin: 0 auto;
+}
